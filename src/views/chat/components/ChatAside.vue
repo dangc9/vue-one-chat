@@ -4,7 +4,7 @@
 
 <template>
   <div class="chat-aside">
-    <nav class="flex flex-col">
+    <nav class="flex flex-col w-full">
       <div>
         <a class="flex ">
           <svg-icon name="chat" class="h-6 w-6 chat-icon"></svg-icon>
