@@ -1,0 +1,165 @@
+[
+  {
+      "chatId": "1",
+      "title": "关于vue的原理",
+      "chatList": {
+          "model": "gpt-3.5-turbo",
+          "messages": [
+              {
+                  "role": "user",
+                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+              },
+              {
+                  "role": "assistant",
+                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+              },
+              {
+                  "role": "user",
+                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                  "id": 1684554035478
+              },
+              {
+                  "role": "assistant",
+                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                  "id": 1684554044405
+              },
+              {
+                  "role": "user",
+                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+              },
+              {
+                  "role": "assistant",
+                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+              },
+              {
+                  "role": "user",
+                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                  "id": 1684554035478
+              },
+              {
+                  "role": "assistant",
+                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                  "id": 1684554044405
+              },
+              {
+                  "role": "user",
+                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+              },
+              {
+                  "role": "assistant",
+                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+              },
+              {
+                  "role": "user",
+                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                  "id": 1684554035478
+              },
+              {
+                  "role": "assistant",
+                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                  "id": 1684554044405
+              },
+              {
+                  "role": "user",
+                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+              },
+              {
+                  "role": "assistant",
+                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+              },
+              {
+                  "role": "user",
+                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                  "id": 1684554035478
+              },
+              {
+                  "role": "assistant",
+                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                  "id": 1684554044405
+              },
+              {
+                  "role": "user",
+                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+              },
+              {
+                  "role": "assistant",
+                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+              },
+              {
+                  "role": "user",
+                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                  "id": 1684554035478
+              },
+              {
+                  "role": "assistant",
+                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                  "id": 1684554044405
+              },
+              {
+                  "role": "user",
+                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+              },
+              {
+                  "role": "assistant",
+                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+              },
+              {
+                  "role": "user",
+                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                  "id": 1684554035478
+              },
+              {
+                  "role": "assistant",
+                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                  "id": 1684554044405
+              },
+              {
+                  "role": "user",
+                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+              },
+              {
+                  "role": "assistant",
+                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+              },
+              {
+                  "role": "user",
+                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                  "id": 1684554035478
+              },
+              {
+                  "role": "assistant",
+                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                  "id": 1684554044405
+              },
+              {
+                  "role": "user",
+                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+              },
+              {
+                  "role": "assistant",
+                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+              },
+              {
+                  "role": "user",
+                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                  "id": 1684554035478
+              },
+              {
+                  "role": "assistant",
+                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                  "id": 1684554044405
+              }
+          ]
+      }
+  },
+  {
+      "chatId": "2",
+      "title": "关于nestjs的原理",
+      "chatList": {}
+  },
+  {
+      "chatId": "3",
+      "title": "关于react的原理",
+      "chatList": {}
+  }
+]
