@@ -1,12 +1,26 @@
 <script setup lang="ts">
   // import { ChatMessage } from "@/types"
-  import { onMounted } from 'vue'
+  import { onMounted, onUnmounted } from 'vue'
   import userHead from "@/assets/img/user.png"
   import robot from "@/assets/img/robot.svg"
   import { toRefs } from "vue"
   import useChatStore from "@/store/modules/chat"
+  import '@/assets/style/clipboard.css'
+  import md  from "@/libs/markdown-it";
+  import { useCopyCode } from '@/hooks'
+  const listerner = useCopyCode()
   const { currentChat } = toRefs(useChatStore())
+
+  const messageContent = (val: any) => {
+    const content = md.render(val)
+    console.log(content)
+    return content
+  }
+
+
+
   onMounted(() => {
+    window.addEventListener("click", listerner)
     const textarea = document.querySelector('#prompt-textarea') as HTMLTextAreaElement;
     textarea.addEventListener('input', changeHeight);
     textarea.addEventListener('keydown', function(event) {
@@ -31,7 +45,10 @@
       textarea.style.height = scrollHeight  + 'px';
     }
   })
-
+  // 卸载监听
+  onUnmounted(() => {
+    window.removeEventListener("click", listerner)
+  })
   function getHead(item: string) {
     return item === 'user' ? userHead : robot
   }
@@ -39,12 +56,12 @@
 
 <template>
   <div class="transition-all h-full max-w-3xl mx-auto">
-    <div class="message-container pb-36">
+    <div class="message-container pb-5">
       <template v-for="item in currentChat.chatList.messages">
-        <div class="flex px-10 py-4 hover:bg-gray-50 rounded-md mb-2">
+        <div class="flex px-10 py-4 hover:bg-gray-50 rounded-md mb-2 message-item">
           <img :src="getHead(item.role)" class="w-9 h-9 rounded-md bg-gradient-to-r from-yellow-300 to-red-700 " alt=""/>
           <div class="px-4 py-1.5 text-sm text-gray-800 text-left max-w-full"> 
-            <div v-html="item.content"></div>
+            <div class="message prose prose-slate dark:prose-invert dark:text-slate break-words overflow-hidden" v-html="messageContent(item.content)"></div>
           </div>
         </div>
       </template>
@@ -71,4 +88,8 @@
       @apply m-0 w-full resize-none border-0 bg-transparent p-0 pr-7 focus:ring-0 focus-visible:ring-0;
     }
   }
+  // ::deep(::-webkit-scrollbar) {
+  //   width: 6px;
+  //   height: 6px;
+  // }
 </style>

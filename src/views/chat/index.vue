@@ -1,14 +1,9 @@
 <script setup lang="ts">
-  import { ref } from "vue"
-  
-  import { ChatMessage } from "@/types"
+  import { toRefs } from "vue"
+  import useChatStore from "@/store/modules/chat"
   import ChatAside from "./components/ChatAside.vue"
   import Chat from "./components/Chat.vue"
-  const d_chatList = localStorage.getItem('d_chatList')
-  const chatList = ref<ChatMessage[]>(d_chatList ? JSON.parse(d_chatList) : [])
-  // localStorage.setItem('d_chatList', JSON.stringify(chatList.value))
-  const currentChat = ref<ChatMessage>(chatList.value[0])
-
+  const { currentChat } = toRefs(useChatStore())
 </script>
 
 <template>
@@ -23,7 +18,7 @@
           <div class="center w-full">{{ currentChat.title || 'Ai智能聊天助手' }}</div>
         </div>
         <div class="relative flex grow overflow-y-auto">
-          <Chat :currentChat="currentChat"/>
+          <Chat/>
         </div>
       </div>
     </div>
