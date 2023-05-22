@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import chatList  from './chatList.json'
-// import { ChatMessage } from "@/types"
+
 const useChatStore = defineStore('chat', {
   state: () => ({ 
     count: 0,
@@ -16,9 +16,22 @@ const useChatStore = defineStore('chat', {
     },
     setCurrentChat(chat: any) {
       this.currentChat = chat
+    },
+    pushCurrentChat(content: any) {
+      this.currentChat.chatList.messages.push(content)
+    },
+    updatedLastMessage(messages: any) {
+      this.currentChat.chatList.messages[this.currentChat.chatList.messages.length - 1] = messages
+    },
+    pushChatList(newChat: any) {
+      this.chatList.push(newChat)
+    },
+    deleteChat(chatId: string) {
+      const index = this.chatList.findIndex((item: any) => item.chatId === chatId)
+      this.chatList.splice(index, 1)
     }
   },
-  // persist: true
+  persist: true
 })
 
 export default useChatStore

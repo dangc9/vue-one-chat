@@ -1,9 +1,22 @@
 <script setup lang="ts">
-  import { toRefs } from "vue"
+  import { toRefs, watch  } from "vue"
+  import { useRoute } from 'vue-router'
   import useChatStore from "@/store/modules/chat"
   import ChatAside from "./components/ChatAside.vue"
   import Chat from "./components/Chat.vue"
-  const { currentChat } = toRefs(useChatStore())
+  import { defaultMessage } from '@/system'
+  const chatStore = useChatStore()
+  const { chatList, currentChat } = toRefs(chatStore)
+  const route = useRoute()
+  watch(() => route.params.chatId, (chatId) => {
+    if(chatId) {
+      if(currentChat.value.chatId === chatId) return
+      const chat = chatList.value.find((item) => item.chatId === chatId)
+      chatStore.setCurrentChat(chat ? chat : defaultMessage)
+    }else {
+      chatStore.setCurrentChat(defaultMessage)
+    }
+  }, { immediate: true })
 </script>
 
 <template>
@@ -11,15 +24,13 @@
     <ChatAside/>
     <div class="relative flex flex-1">
       <div class="h-full w-full flex flex-col">
-        <div class="flex flex-1 py-4 px-4 shadow-md z-50 bg-white">
+        <div class="flex flex-1 py-4 px-4 shadow-md z-50 bg-white max-h-14">
           <div class="flex items-center justify-center cursor-pointer">
             <svg-icon name="flod" class="h-6 w-6"></svg-icon>
           </div>
           <div class="center w-full">{{ currentChat.title || 'Ai智能聊天助手' }}</div>
         </div>
-        <div class="relative flex grow overflow-y-auto">
-          <Chat/>
-        </div>
+        <Chat/>
       </div>
     </div>
   </div>

@@ -1,214 +1,213 @@
 [
-  {
-      "chatId": "1",
-      "title": "关于vue的原理",
-      "chatList": {
-          "model": "gpt-3.5-turbo",
-          "messages": [
-              {
-                  "role": "user",
-                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
-              },
-              {
-                  "role": "assistant",
-                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
-              },
-              {
-                  "role": "user",
-                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
-                  "id": 1684554035478
-              },
-              {
-                  "role": "assistant",
-                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
-                  "id": 1684554044405
-              },
-              {
-                  "role": "user",
-                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
-              },
-              {
-                  "role": "assistant",
-                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
-              },
-              {
-                  "role": "user",
-                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
-                  "id": 1684554035478
-              },
-              {
-                  "role": "assistant",
-                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
-                  "id": 1684554044405
-              },
-              {
-                  "role": "user",
-                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
-              },
-              {
-                  "role": "assistant",
-                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
-              },
-              {
-                  "role": "user",
-                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
-                  "id": 1684554035478
-              },
-              {
-                  "role": "assistant",
-                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
-                  "id": 1684554044405
-              },
-              {
-                  "role": "user",
-                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
-              },
-              {
-                  "role": "assistant",
-                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
-              },
-              {
-                  "role": "user",
-                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
-                  "id": 1684554035478
-              },
-              {
-                  "role": "assistant",
-                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
-                  "id": 1684554044405
-              },
-              {
-                  "role": "user",
-                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
-              },
-              {
-                  "role": "assistant",
-                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
-              },
-              {
-                  "role": "user",
-                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
-                  "id": 1684554035478
-              },
-              {
-                  "role": "assistant",
-                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
-                  "id": 1684554044405
-              },
-              {
-                  "role": "user",
-                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
-              },
-              {
-                  "role": "assistant",
-                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
-              },
-              {
-                  "role": "user",
-                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
-                  "id": 1684554035478
-              },
-              {
-                  "role": "assistant",
-                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
-                  "id": 1684554044405
-              },
-              {
-                  "role": "user",
-                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
-              },
-              {
-                  "role": "assistant",
-                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
-              },
-              {
-                  "role": "user",
-                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
-                  "id": 1684554035478
-              },
-              {
-                  "role": "assistant",
-                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
-                  "id": 1684554044405
-              },
-              {
-                  "role": "user",
-                  "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
-              },
-              {
-                  "role": "assistant",
-                  "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
-              },
-              {
-                  "role": "user",
-                  "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
-                  "id": 1684554035478
-              },
-              {
-                  "role": "assistant",
-                  "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
-                  "id": 1684554044405
-              }
-          ]
-      }
-  },
-  {
-      "chatId": "2",
-      "title": "关于nestjs的原理",
-      "chatList": {
-        "model": "gpt-3.5-turbo",
-        "messages":  [
-            {
-                "role": "user",
-                "content": "hello",
-                "id": 1684665905072
-            },
-            {
-                "role": "assistant",
-                "content": "Hi there! How can I assist you today?",
-                "id": 1684665906173
-            },
-            {
-                "role": "user",
-                "content": "js中如何去除数组中最后已给元素",
-                "id": 1684666090096
-            },
-            {
-                "role": "assistant",
-                "content": "可以使用数组的pop()方法去除数组中最后一个元素。该方法会从数组中删除最后一个元素，并返回该元素的值。\n\n示例代码：\n\n```javascript\nlet arr = [1, 2, 3, 4, 5];\nlet lastElement = arr.pop();\nconsole.log(lastElement); // 输出 5\nconsole.log(arr); // 输出 [1, 2, 3, 4]\n```\n\n在上面的示例中，pop()方法会将数组arr中的最后一个元素5删除，并将其赋值给变量lastElement。最后，输出lastElement的值为5，输出arr的值为[1, 2, 3, 4]，即已经去除了最后一个元素。",
-                "id": 1684666097200
-            }
-        ]
-      }
-  },
-  {
-    "chatId": "3",
-    "title": "关于react的原理",
-    "chatList": {
-        "model": "gpt-3.5-turbo",
-        "messages": [ 
-    
-            {
-                "role": "user",
-                "content": "vue3项目中，如何使用markdown-it，配合markdown-it-highlightjs等，实现代码高亮。",
-                "id": 1684676208947
-            },
-            {
-                "role": "assistant",
-                "content": "步骤如下：\n\n1. 安装markdown-it和markdown-it-highlightjs。\n\n```\nnpm install markdown-it markdown-it-highlightjs --save\n```\n\n2. 在Vue组件中引入markdown-it和highlight.js。\n\n```js\nimport MarkdownIt from 'markdown-it'\nimport hljs from 'highlight.js'\n```\n\n3. 创建MarkdownIt实例，并配置highlight.js。\n\n```js\nconst md = new MarkdownIt({\n  highlight: function (str, lang) {\n    if (lang && hljs.getLanguage(lang)) {\n      try {\n        return '<pre class=\"hljs\"><code>' +\n               hljs.highlight(lang, str, true).value +\n               '</code></pre>'\n      } catch (__) {}\n    }\n\n    return '<pre class=\"hljs\"><code>' + md.utils.escapeHtml(str) + '</code></pre>'\n  }\n})\n```\n\n4. 在Vue组件中使用MarkdownIt渲染Markdown文本。\n\n```html\n<template>\n  <div v-html=\"html\"></div>\n</template>\n\n<script>\nimport MarkdownIt from 'markdown-it'\nimport hljs from 'highlight.js'\n\nexport default {\n  data() {\n    return {\n      text: '# Hello, world!\\n```javascript\\nconsole.log(\"Hello, world!\")\\n```',\n      html: ''\n    }\n  },\n\n  mounted() {\n    const md = new MarkdownIt({\n      highlight: function (str, lang) {\n        if (lang && hljs.getLanguage(lang)) {\n          try {\n            return '<pre class=\"hljs\"><code>' +\n                   hljs.highlight(lang, str, true).value +\n                   '</code></pre>'\n          } catch (__) {}\n        }\n\n        return '<pre class=\"hljs\"><code>' + md.utils.escapeHtml(str) + '</code></pre>'\n      }\n    })\n\n    this.html = md.render(this.text)\n  }\n}\n</script>\n```\n\n这样就可以在Vue3项目中使用markdown-it和markdown-it-highlightjs实现代码高亮了。",
-                "id": 1684676225016
-            },
-            {
-                "role": "user",
-                "content": "上面生成中，似乎没有引入相关css，导致样式没有生效",
-                "id": 1684677504906
-            },
-            {
-                "role": "assistant",
-                "content": "是的，你说得对。为了让代码高亮样式生效，还需要引入highlight.js的样式文件。\n\n1. 安装highlight.js的样式文件。\n\n```\nnpm install highlight.js/styles/xxx.css --save\n```\n\n其中，xxx.css是你想要使用的样式文件名，比如：\n\n- atom-one-dark.css\n- dracula.css\n- github.css\n- monokai.css\n- solarized-dark.css\n\n你可以在highlight.js的官网上找到更多样式文件。\n\n2. 在Vue组件中引入highlight.js的样式文件。\n\n```html\n<template>\n  <div class=\"markdown-body\" v-html=\"html\"></div>\n</template>\n\n<style>\n@import 'highlight.js/styles/github.css';\n</style>\n```\n\n这里我以github.css为例，将其引入到Vue组件的样式中。\n\n注意，为了让样式生效，我给包含渲染后的Markdown文本的div添加了一个class名叫做markdown-body。你可以自己定义这个class名，或者直接使用GitHub的样式名markdown-body。\n\n这样就可以在Vue3项目中使用markdown-it和markdown-it-highlightjs实现代码高亮，并让样式生效了。",
-                "id": 1684677516450
-            }
-        ]
+    {
+        "chatId": "1",
+        "title": "关于vue的原理",
+        "chatList": {
+            "model": "gpt-3.5-turbo",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+                },
+                {
+                    "role": "assistant",
+                    "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+                },
+                {
+                    "role": "user",
+                    "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                    "id": 1684554035478
+                },
+                {
+                    "role": "assistant",
+                    "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                    "id": 1684554044405
+                },
+                {
+                    "role": "user",
+                    "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+                },
+                {
+                    "role": "assistant",
+                    "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+                },
+                {
+                    "role": "user",
+                    "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                    "id": 1684554035478
+                },
+                {
+                    "role": "assistant",
+                    "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                    "id": 1684554044405
+                },
+                {
+                    "role": "user",
+                    "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+                },
+                {
+                    "role": "assistant",
+                    "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+                },
+                {
+                    "role": "user",
+                    "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                    "id": 1684554035478
+                },
+                {
+                    "role": "assistant",
+                    "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                    "id": 1684554044405
+                },
+                {
+                    "role": "user",
+                    "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+                },
+                {
+                    "role": "assistant",
+                    "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+                },
+                {
+                    "role": "user",
+                    "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                    "id": 1684554035478
+                },
+                {
+                    "role": "assistant",
+                    "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                    "id": 1684554044405
+                },
+                {
+                    "role": "user",
+                    "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+                },
+                {
+                    "role": "assistant",
+                    "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+                },
+                {
+                    "role": "user",
+                    "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                    "id": 1684554035478
+                },
+                {
+                    "role": "assistant",
+                    "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                    "id": 1684554044405
+                },
+                {
+                    "role": "user",
+                    "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+                },
+                {
+                    "role": "assistant",
+                    "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+                },
+                {
+                    "role": "user",
+                    "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                    "id": 1684554035478
+                },
+                {
+                    "role": "assistant",
+                    "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                    "id": 1684554044405
+                },
+                {
+                    "role": "user",
+                    "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+                },
+                {
+                    "role": "assistant",
+                    "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+                },
+                {
+                    "role": "user",
+                    "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                    "id": 1684554035478
+                },
+                {
+                    "role": "assistant",
+                    "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                    "id": 1684554044405
+                },
+                {
+                    "role": "user",
+                    "content": "哪些浏览器支持webgpu， webgpu已经可以开始流行了吗"
+                },
+                {
+                    "role": "assistant",
+                    "content": "目前，Chrome、Firefox、Safari和Edge浏览器都已经开始支持WebGPU。但是，WebGPU仍处于实验阶段，还没有正式发布，因此它还没有开始流行。不过，随着WebGPU的不断发展和成熟，它将会成为Web开发中的重要技术之一。"
+                },
+                {
+                    "role": "user",
+                    "content": "帮我给一个AI聊天助手起一些名字参考，中英文都可以",
+                    "id": 1684554035478
+                },
+                {
+                    "role": "assistant",
+                    "content": "中文：\n1. 智能小助\n2. 机智小脑\n3. 智能管家\n4. 机器小秘\n5. 知心小友\n6. 智慧小伴\n7. 智能小精灵\n8. 机器智友\n9. 智能小帮手\n10. 机器小助理\n\n英文：\n1. Smart Assistant\n2. Clever Brain\n3. Intelligent Butler\n4. Machine Secretary\n5. Kind Friend\n6. Wise Companion\n7. Intelligent Elf\n8. Machine Intelligence Friend\n9. Intelligent Helper\n10. Machine Assistant",
+                    "id": 1684554044405
+                }
+            ]
+        }
+    },
+    {
+        "chatId": "2",
+        "title": "关于nestjs的原理",
+        "chatList": {
+            "model": "gpt-3.5-turbo",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "hello",
+                    "id": 1684665905072
+                },
+                {
+                    "role": "assistant",
+                    "content": "Hi there! How can I assist you today?",
+                    "id": 1684665906173
+                },
+                {
+                    "role": "user",
+                    "content": "js中如何去除数组中最后已给元素",
+                    "id": 1684666090096
+                },
+                {
+                    "role": "assistant",
+                    "content": "可以使用数组的pop()方法去除数组中最后一个元素。该方法会从数组中删除最后一个元素，并返回该元素的值。\n\n示例代码：\n\n```javascript\nlet arr = [1, 2, 3, 4, 5];\nlet lastElement = arr.pop();\nconsole.log(lastElement); // 输出 5\nconsole.log(arr); // 输出 [1, 2, 3, 4]\n```\n\n在上面的示例中，pop()方法会将数组arr中的最后一个元素5删除，并将其赋值给变量lastElement。最后，输出lastElement的值为5，输出arr的值为[1, 2, 3, 4]，即已经去除了最后一个元素。",
+                    "id": 1684666097200
+                }
+            ]
+        }
+    },
+    {
+        "chatId": "3",
+        "title": "关于react的原理",
+        "chatList": {
+            "model": "gpt-3.5-turbo",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "vue3项目中，如何使用markdown-it，配合markdown-it-highlightjs等，实现代码高亮。",
+                    "id": 1684676208947
+                },
+                {
+                    "role": "assistant",
+                    "content": "步骤如下：\n\n1. 安装markdown-it和markdown-it-highlightjs。\n\n```\nnpm install markdown-it markdown-it-highlightjs --save\n```\n\n2. 在Vue组件中引入markdown-it和highlight.js。\n\n```js\nimport MarkdownIt from 'markdown-it'\nimport hljs from 'highlight.js'\n```\n\n3. 创建MarkdownIt实例，并配置highlight.js。\n\n```js\nconst md = new MarkdownIt({\n  highlight: function (str, lang) {\n    if (lang && hljs.getLanguage(lang)) {\n      try {\n        return '<pre class=\"hljs\"><code>' +\n               hljs.highlight(lang, str, true).value +\n               '</code></pre>'\n      } catch (__) {}\n    }\n\n    return '<pre class=\"hljs\"><code>' + md.utils.escapeHtml(str) + '</code></pre>'\n  }\n})\n```\n\n4. 在Vue组件中使用MarkdownIt渲染Markdown文本。\n\n```html\n<template>\n  <div v-html=\"html\"></div>\n</template>\n\n<script>\nimport MarkdownIt from 'markdown-it'\nimport hljs from 'highlight.js'\n\nexport default {\n  data() {\n    return {\n      text: '# Hello, world!\\n```javascript\\nconsole.log(\"Hello, world!\")\\n```',\n      html: ''\n    }\n  },\n\n  mounted() {\n    const md = new MarkdownIt({\n      highlight: function (str, lang) {\n        if (lang && hljs.getLanguage(lang)) {\n          try {\n            return '<pre class=\"hljs\"><code>' +\n                   hljs.highlight(lang, str, true).value +\n                   '</code></pre>'\n          } catch (__) {}\n        }\n\n        return '<pre class=\"hljs\"><code>' + md.utils.escapeHtml(str) + '</code></pre>'\n      }\n    })\n\n    this.html = md.render(this.text)\n  }\n}\n</script>\n```\n\n这样就可以在Vue3项目中使用markdown-it和markdown-it-highlightjs实现代码高亮了。",
+                    "id": 1684676225016
+                },
+                {
+                    "role": "user",
+                    "content": "上面生成中，似乎没有引入相关css，导致样式没有生效",
+                    "id": 1684677504906
+                },
+                {
+                    "role": "assistant",
+                    "content": "是的，你说得对。为了让代码高亮样式生效，还需要引入highlight.js的样式文件。\n\n1. 安装highlight.js的样式文件。\n\n```\nnpm install highlight.js/styles/xxx.css --save\n```\n\n其中，xxx.css是你想要使用的样式文件名，比如：\n\n- atom-one-dark.css\n- dracula.css\n- github.css\n- monokai.css\n- solarized-dark.css\n\n你可以在highlight.js的官网上找到更多样式文件。\n\n2. 在Vue组件中引入highlight.js的样式文件。\n\n```html\n<template>\n  <div class=\"markdown-body\" v-html=\"html\"></div>\n</template>\n\n<style>\n@import 'highlight.js/styles/github.css';\n</style>\n```\n\n这里我以github.css为例，将其引入到Vue组件的样式中。\n\n注意，为了让样式生效，我给包含渲染后的Markdown文本的div添加了一个class名叫做markdown-body。你可以自己定义这个class名，或者直接使用GitHub的样式名markdown-body。\n\n这样就可以在Vue3项目中使用markdown-it和markdown-it-highlightjs实现代码高亮，并让样式生效了。",
+                    "id": 1684677516450
+                }
+            ]
+        }
     }
-  }
 ]

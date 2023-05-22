@@ -26,10 +26,29 @@ export function useCopyCode() {
     }
   }
   return listerner
-  // onMount(() => {
-  //   window.addEventListener("click", listerner)
-  // })
-  // onCleanup(() => {
-  //   window.removeEventListener("click", listerner)
-  // })
+}
+
+export function autoTextarea(textarea: HTMLTextAreaElement) {
+  textarea.addEventListener('input', changeHeight);
+  textarea.addEventListener('keydown', function(event) {
+    if (event.keyCode === 13) { // Enter键
+      event.preventDefault();
+      if (event.shiftKey) { // 同时按下Shift键
+        var cursorPos = this.selectionStart;
+        var textBefore = this.value.substring(0, cursorPos);
+        var textAfter = this.value.substring(cursorPos, this.value.length);
+        this.value = textBefore + "\n" + textAfter;
+        this.selectionEnd = cursorPos + 1;
+        changeHeight()
+      }
+    }
+  });
+  function changeHeight() {
+    let scrollHeight = textarea.scrollHeight;
+    if(scrollHeight !== 24) {
+      textarea.style.height = 'auto';
+      scrollHeight = textarea.scrollHeight;
+    }
+    textarea.style.height = scrollHeight  + 'px';
+  }
 }
